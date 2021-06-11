@@ -20,6 +20,8 @@ namespace Calendar
                 int CID = CI.InputD();
                 char CIB = CI.InputB();
 
+                Console.WriteLine("カレンダーを表示");
+
                 if (CIM == -1)
                 {
                     break;
