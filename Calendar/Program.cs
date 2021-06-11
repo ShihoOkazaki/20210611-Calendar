@@ -15,10 +15,14 @@ namespace Calendar
 
             while (true)
             {
+                Console.WriteLine("");
+
                 int CIY = CI.InputY();
                 int CIM = CI.InputM();
                 int CID = CI.InputD();
                 char CIB = CI.InputB();
+
+                Console.WriteLine("カレンダー表示");
 
                 Console.WriteLine("カレンダー表示");
 
