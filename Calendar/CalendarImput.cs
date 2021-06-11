@@ -11,12 +11,20 @@ namespace Calendar
         public int year;
         public int month;
         public int day;
+        public char youbi;
         
         public int InputY()
         {
             Console.Write("西暦を入力してください : ");
             year = int.Parse(Console.ReadLine());
             return (year);
+        }
+
+        public char InputB()
+        {
+            Console.Write("曜日を入力してください:");
+            youbi = char.Parse(Console.ReadLine());
+            return (youbi);
         }
 
         public int InputM()
