@@ -21,6 +21,8 @@ namespace Calendar
                 int CIM = CI.InputM();
                 int CID = CI.InputD();
 
+                Console.WriteLine("カレンダー表示");
+
                 if (CIM == -1)
                 {
                     break;
