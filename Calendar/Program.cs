@@ -15,6 +15,8 @@ namespace Calendar
 
             while (true)
             {
+                Console.WriteLine("");
+
                 int CIY = CI.InputY();
                 int CIM = CI.InputM();
                 int CID = CI.InputD();
