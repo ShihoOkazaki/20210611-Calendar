@@ -22,6 +22,8 @@ namespace Calendar
 
                 Console.WriteLine("カレンダー表示");
 
+                Console.WriteLine("カレンダーを表示")
+
                 if (CIM == -1)
                 {
                     break;
