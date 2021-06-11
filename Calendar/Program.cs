@@ -18,6 +18,7 @@ namespace Calendar
                 int CIY = CI.InputY();
                 int CIM = CI.InputM();
                 int CID = CI.InputD();
+                char CIB = CI.InputB();
 
                 if (CIM == -1)
                 {
